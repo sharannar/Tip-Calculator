@@ -1,0 +1,35 @@
+body{
+    background-color:whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    width: 350px;
+    height: 500px;
+    background-color: skyblue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+}
+h1{
+    background-color: peachpuff;
+    color:crimson;
+    color:black;
+}
+button {
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+    background-color:black;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+  
+.tip {
+    text-align: center;
+    font-size: 18px;
+    display: none;
+}
